@@ -102,4 +102,4 @@ outside of the *scope* of the for loop.
 ### WHAT TO DO<br>
 - Complete the program following the expected results in the
   program comments.<br><br>
-- `Run the predefined tests` (click the Tests icon in the left column under Tools) and correct any remaining logic errors.
+- Correct and syntax, runtime or logic errors.
