@@ -1,29 +1,32 @@
-// Practicum 13 (while and for loops)
-// (TO COMPLETE)
-
-
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // var declarations
-        int n, sum1, sum2;
+        int n, sum1 = 0, sum2 = 0;
      
         Scanner input = new Scanner(System.in);
 
         // prompt user for value of n to sum up to
         // if then enter 5, should add up 1 to 5 (equal to 15)
-       
+        System.out.println("Enter in number wanted to sum up to");
 
-        // use a for loop to sum up the values and assign to sum1
+        n = input.nextInt();
 
+        for(int i = n; i > 0; i--)
+            {
+                sum1 = sum1 + i ;
+            }
 
-        // use a while loop to sum up the values and assign to sum2
-        
+            int j = n;
 
-        // display results
+        while(j != 0)
+            {
+                sum2 = sum2 + j;
+                j--;
+            }
+
         System.out.println(
           "Sum of 1.." + n + " by use of for loop is " + sum1);
 
